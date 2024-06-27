@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#BDBDBD">
+
+    <!-- Button for Activity 1 -->
+    <Button
+        android:id="@+id/button_activity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTIVITY 1"
+        android:textColor="#FFFFFF"
+        android:background="#7B1FA2"
+        android:layout_marginBottom="16dp"
+        android:onClick="openSecondActivity" />
+
+    <!-- Button for Nama Kalian -->
+    <Button
+        android:id="@+id/button_nama_kalian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SENY ADINDA MARSELA"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="#7B1FA2"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button for additional functionality -->
+    <Button
+        android:id="@+id/button_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="#7B1FA2"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
